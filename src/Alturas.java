@@ -46,7 +46,6 @@ public class Alturas {
         }
         return cuantos;
     }
-
     public static int calcularAlumnosAlturaInferior(ArrayList<Double> alturas) {
         double media = calcularMedia(alturas);
         int cuantos = 0;
